@@ -38,7 +38,7 @@
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
     <!-- Código de las plataformas de Análisis -->
-    <script></script>
+    <script src="js/script.js"></script>
     <!-- Scripts a cargar antes de la renderización -->
     <script src="preloader.js"></script>
   </head>
@@ -46,38 +46,89 @@
     <div class="container">
       <main>
         <div class="container__memory16gb">
-          <p>Up to</p>
-          <p class="texto__gradientazul">16GB</p>
-          <p>memory</p>
+          <h3>Up to</h3>
+          <h1 class="texto__gradientazul fontsize__50px">16GB</h1>
+          <h3>memory</h3>
         </div>
-        <div class="container__thunderbolt"></div>
+        <div class="container__thunderbolt">
+          <img src="img/desktop/thunderbolt.png">
+          <h3>Thunderbolt / USB 4</h3>
+        </div>
         <div class="container__ssd2tb">
-          <p>Up to</p>
-          <p class="texto__gradientazul">2TB</p>
-          <p>SSD</p>
+          <h3>Up to</h3>
+          <h1 class="texto__gradientazul fontsize__50px">2TB</h1>
+          <h3>SSD</h3>
         </div>
-        <div class="container__touchid"></div>
-        <div class="container__wifi6"></div>
-        <div class="container__bigsur"></div>
-        <div class="container__widecolor"></div>
+        <div class="container__touchid">
+          <img src="svg/fingerprint.svg">
+          <h3>Touch ID</h3>
+        </div>
+        <div class="container__wifi6">
+          <img src="svg/wifi.svg">
+          <h3>Wi-Fi 6</h3>
+        </div>
+        <div class="container__bigsur">
+          <img src="img/desktop/bigsur.png" alt="big sur" loading="lazy">
+        </div>
+        <div class="container__widecolor">
+          <p class="texto__gradienterosa fontsize__50px">P3 Wide<br>color</p>
+        </div>
         <div class="container__retinadisplay">
-          <p class="texto__gradienterosa retina__texto">13.3"</p>
-          <p>Retina display</p>
+          <h1 class="texto__gradienterosa retina__texto">13.3"</h1>
+          <h3>Retina display</h3>
         </div>
-        <div class="container__machinelearning"></div>
+        <div class="container__machinelearning">
+          <h3>Up to</h3>
+          <h1 class="texto__gradientemorado fontsize__150px">11x</h1>
+          <h3>Faster Machine Learning</h3>
+        </div>
         <div class="container__activecoolingsystem">
-          <p></p>
+          <h3 class="texto__gradientazul">Active<br>Cooling<br>System</h3>
         </div>
-        <div class="container__keyboardtouchbar"></div>
-        <div class="container__studiomics"></div>
-        <div class="container__macbook"></div>
-        <div class="container__advancedcamera"></div>
-        <div class="container__batterylife"></div>
-        <div class="container__iphoneipadapps"></div>
-        <div class="container__fastercpu"></div>
-        <div class="container__fastergraphics"></div>
-        <div class="container__secureenclave"></div>
-        <div class="container__m1"></div>
+        <div class="container__keyboardtouchbar">
+          <img src="img/desktop/touchbar.png">
+          <h3>Magic Keyboard + Touch Bar</h3>
+        </div>
+        <div class="container__studiomics">
+          <h3>Studio-<br>quality<br>mics</h3>
+        </div>
+        <div class="container__macbook">
+          <div class="esfera__reloj">
+            <div class="horas" id="horas"></div>
+            <div class="minutos" id="minutos"></div>
+            <div class="segundos" id="segundos"></div>
+          </div>
+        </div>
+        <div class="container__advancedcamera">
+          <img src="img/desktop/cameraisp.png">
+          <h3>Advanced<br>camera ISP</h3>
+        </div>
+        <div class="container__batterylife">
+          <h3>Up to</h3>
+          <img src="svg/batterylife.svg">
+          <h3>battery life</h3>
+        </div>
+        <div class="container__iphoneipadapps">
+          <img src="img/desktop/iphoneipadapps.png">
+          <h3>iPhone and<br>iPad apps</h3>
+        </div>
+        <div class="container__fastercpu">
+          <h3>Up to</h3>
+          <h1 class="texto__gradientazul fontsize__150px">2.8x</h1>
+          <h3>faster CPU</h3>
+        </div>
+        <div class="container__fastergraphics">
+          <h3>Up to</h3>
+          <h1 class="texto__gradienterosa fontsize__150px">5x</h1>
+          <h3>faster graphics</h3>
+        </div>
+        <div class="container__secureenclave">
+          <img src="svg/secureenclave.svg">
+          <h3>Secure<br>Enclave</h3>
+        </div>
+        <div class="container__m1">
+          <img src="img/desktop/chipm1.png" alt="chip m1" loading="lazy">
+        </div>
       </main>
     </div>
 
