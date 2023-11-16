@@ -148,8 +148,10 @@ main {
   }
 
   & .container__bigsur {
-    background-color: var(--bg-bloques);
+    background: var(--bg-bloques);
     border-radius: var(--radius-divgrid);
+    display: flex;
+    overflow: hidden;
     grid-column: 1/13;
     grid-row: 9/15;
   }
